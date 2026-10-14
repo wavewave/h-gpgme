@@ -45,11 +45,11 @@ library
   hs-source-dirs:      src
   ghc-options:         -fno-warn-orphans
   exposed-modules:     Crypto.Gpgme
+                     , Crypto.Gpgme.Internal
                      , Crypto.Gpgme.Key.Gen
   other-modules:       Crypto.Gpgme.Key
                      , Crypto.Gpgme.Ctx
                      , Crypto.Gpgme.Crypto
-                     , Crypto.Gpgme.Internal
                      , Crypto.Gpgme.Types
 
 test-suite tests
