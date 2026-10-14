@@ -47,10 +47,10 @@ library
   exposed-modules:     Crypto.Gpgme
                      , Crypto.Gpgme.Internal
                      , Crypto.Gpgme.Key.Gen
+                     , Crypto.Gpgme.Types
   other-modules:       Crypto.Gpgme.Key
                      , Crypto.Gpgme.Ctx
                      , Crypto.Gpgme.Crypto
-                     , Crypto.Gpgme.Types
 
 test-suite tests
   import:              warnings, deps
